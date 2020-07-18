@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Interactive tool to train utilizing TheStaircase improvement methodology.",
   "main": "main.js",
+  "homepage": "https://kedyn.github.io/TheStaircase/",
   "scripts": {
     "start": "parcel ./src/index.html --open",
     "prebuild": "rmdir dist /s /q",
