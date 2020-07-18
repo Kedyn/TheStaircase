@@ -1,0 +1,49 @@
+{
+  "global": {
+    "mottoTitle": "Your new motto",
+    "motto": "My goal is to improve. I will not try to win the game, I will focus on improving.",
+    "rules": "Rules",
+    "units": "Units",
+    "noCommandCard": "You may not click in the command card.",
+    "unitsPerProduction": "You may not queue more than two units per production facility.",
+    "productionPerBase": "You may not create b+2 production facilities at a time, where b is the number of mineral saturated bases. (A mineral saturated base must have 16 workers mining minerals.)",
+    "mineMinerals": "Mine minerals.",
+    "noGas": "Do not mine gas.",
+    "mineGas": "Mine gas.",
+    "unitControl": "Control your units to the best of your ability.",
+    "chooseUnits": "Choose {{count}} unit:",
+    "chooseUnits_plural": "Choose {{count}} units:",
+    "nextStep": "Next Step",
+    "continue": "Continue"
+  },
+  "race": {
+    "choose": "Choose your race"
+  },
+  "stepOne": {
+    "name": "First Step",
+    "minimapAttack": "Attack only using minimap.",
+    "noBabysitting": "Do not watch your battles."
+  },
+  "stepTwo": {
+    "name": "Second Step"
+  },
+  "stepThree": {
+    "name": "Third Step"
+  },
+  "stepFour": {
+    "name": "Fourth Step"
+  },
+  "stepFive": {
+    "name": "Fifth Step"
+  },
+  "stepSix": {
+    "name": "Sixth Step"
+  },
+  "stepSeven": {
+    "name": "Seventh Step"
+  },
+  "finalStep": {
+    "title": "Congratulations",
+    "content": "You have now completed all the steps on this training. We hope that you have improved."
+  }
+}

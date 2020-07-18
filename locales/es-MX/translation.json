@@ -1,0 +1,49 @@
+{
+  "global": {
+    "mottoTitle": "Tu nuevo lema",
+    "motto": "Mi objetivo es mejorar. No intentare ganar el juego, me enfocare en mejorar.",
+    "rules": "Reglas",
+    "units": "Unidades",
+    "noCommandCard": "No puedes hacer clic en la tarjeta de comando.",
+    "unitsPerProduction": "No puedes poner mas de 2 unidades en espera por planta de producción.",
+    "productionPerBase": "No puedes crear mas de b + 2 plantas de producción a la vez, b es el número de bases saturadas de minerales. (Una base saturada de minerales debe tener 16 trabajadores que extraen minerales.",
+    "mineMinerals": "Mina minerales.",
+    "noGas": "No mines gas.",
+    "mineGas": "Mina gas",
+    "unitControl": "Controla tus unidades lo mejor que puedas.",
+    "chooseUnits": "Elige {{count}} unidad:",
+    "chooseUnits_plural": "Elige {{count}} unidades:",
+    "nextStep": "Siguiente Paso",
+    "continue": "Continuar"
+  },
+  "race": {
+    "choose": "Elige tu raza"
+  },
+  "stepOne": {
+    "name": "Primer Paso",
+    "minimapAttack": "Ataca usando solo el minimapa.",
+    "noBabysitting": "No veas tus batallas."
+  },
+  "stepTwo": {
+    "name": "Segundo Paso"
+  },
+  "stepThree": {
+    "name": "Tercer Paso"
+  },
+  "stepFour": {
+    "name": "Cuarto Paso"
+  },
+  "stepFive": {
+    "name": "Quinto Paso"
+  },
+  "stepSix": {
+    "name": "Sexto Paso"
+  },
+  "stepSeven": {
+    "name": "Séptimo Paso"
+  },
+  "finalStep": {
+    "title": "Felicidades",
+    "content": "Has completado todos los pasos de este entrenamiento. Esperamos que hayas mejorado."
+  }
+}
