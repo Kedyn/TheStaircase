@@ -1,0 +1,59 @@
+{
+  "name": "thestaircase",
+  "version": "1.0.0",
+  "description": "Interactive tool to train utilizing TheStaircase improvement methodology.",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --open",
+    "prebuild": "rmdir dist /s /q",
+    "build": "parcel build ./src/index.html --no-source-maps -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TheStaircase"
+  ],
+  "author": "Kedyn Macedonio",
+  "license": "MIT",
+  "dependencies": {
+    "beautiful-react-hooks": "^0.27.1",
+    "i18next": "^19.6.0",
+    "i18next-browser-languagedetector": "^5.0.0",
+    "i18next-http-backend": "^1.0.16",
+    "jss-preset-default": "^10.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.0",
+    "react-jss": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "gh-pages": "^3.1.0",
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.4.3",
+    "typescript": "^3.9.6"
+  },
+  "alias": {
+    "components": "./src/components",
+    "themes": "./src/themes",
+    "utils": "./src/utils"
+  },
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "./src/locales",
+        "staticOutDir": "locales"
+      },
+      {
+        "staticPath": "./src/fonts",
+        "staticOutDir": "fonts"
+      },
+      {
+        "staticPath": "./src/images",
+        "staticOutDir": "images"
+      }
+    ]
+  }
+}
