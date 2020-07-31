@@ -1,5 +1,8 @@
 {
   "global": {
+    "matches": "Matches",
+    "addMatch": "Add Result",
+    "matchesDescription": "After each of your match upload your replay to <2>GGGReplays</2> and add the result of your 'spending skill'. To be able to move to the next step you must get Master+ on four of your matches, though more are recommended.",
     "mottoTitle": "Your new motto",
     "motto": "My goal is to improve. I will not try to win the game, I will focus on improving.",
     "rules": "Rules",
@@ -13,8 +16,11 @@
     "unitControl": "Control your units to the best of your ability.",
     "chooseUnits": "Choose {{count}} unit:",
     "chooseUnits_plural": "Choose {{count}} units:",
+    "prevStep": "Previous Step",
     "nextStep": "Next Step",
-    "continue": "Continue"
+    "continue": "Continue",
+    "about": "About",
+    "contribute": "Contribute"
   },
   "race": {
     "choose": "Choose your race"

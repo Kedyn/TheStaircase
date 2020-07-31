@@ -1,5 +1,8 @@
 {
   "global": {
+    "matches": "Partidas",
+    "addMatch": "Agregar Resultado",
+    "matchesDescription": "Despues de cada partida sube la repeticion a <2>GGGReplays</2> y agrega el resultado de tu 'spending skill'. Debes de obtener Masters+ en cuatro partidas, aunque mas son recomendadas.",
     "mottoTitle": "Tu nuevo lema",
     "motto": "Mi objetivo es mejorar. No intentare ganar el juego, me enfocare en mejorar.",
     "rules": "Reglas",
@@ -13,8 +16,11 @@
     "unitControl": "Controla tus unidades lo mejor que puedas.",
     "chooseUnits": "Elige {{count}} unidad:",
     "chooseUnits_plural": "Elige {{count}} unidades:",
+    "prevStep": "Paso Anterior",
     "nextStep": "Siguiente Paso",
-    "continue": "Continuar"
+    "continue": "Continuar",
+    "about": "Acerca de",
+    "contribute": "Contribuye"
   },
   "race": {
     "choose": "Elige tu raza"
