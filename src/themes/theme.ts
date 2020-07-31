@@ -21,7 +21,7 @@ export default class DefaultTheme implements ITheme {
 
   public constructor() {
     this.primary = "rgba(255, 255, 255, 0.9)";
-    this.background = "rgb(3, 8, 13)";
+    this.background = "rgba(3, 8, 13, 0.5)";
     this.backgroundBox = "rgba(255, 255, 255, 0.1)";
     this.activeBackgroundBox = "rgba(255, 255, 255, 0.2)";
     this.borderColor = "rgba(255, 255, 255, 0.3)";

@@ -14,7 +14,7 @@ export default function Race(props: IRaceProps): JSX.Element {
   return (
     <React.Fragment>
       <div className={classes.root}>
-        <h1 className={classes.title}>{t("race.choose")}</h1>
+        <h2 className={classes.title}>{t("race.choose")}</h2>
         <div className={classes.wrapper}>
           {races.map((race, index) => (
             <div

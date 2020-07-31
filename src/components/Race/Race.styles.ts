@@ -3,22 +3,21 @@ import { createUseStyles } from "react-jss";
 
 export default createUseStyles((theme: ITheme) => ({
   root: {
-    width: "100vw",
-    height: "100vh",
-    padding: "1rem",
+    flexGrow: 1,
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
+    overflowY: "auto",
+    padding: "1rem",
 
     "@media (max-width: 900px)": {
       justifyContent: "normal",
-      marginBottom: "3rem",
     },
   },
   title: {
     fontFamily: "Starcraft, impact",
-    fontSize: "3rem",
+    fontSize: "2rem",
     textAlign: "center",
     textTransform: "uppercase",
   },

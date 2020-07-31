@@ -3,22 +3,24 @@ import { createUseStyles } from "react-jss";
 
 export default createUseStyles((theme: ITheme) => ({
   root: {
-    flexGrow: 1,
     display: "flex",
     flexDirection: "column",
-    alignItems: "center",
     justifyContent: "center",
-    overflowY: "auto",
+    height: "60px",
+    background: theme.background,
+
+    "@media (min-width: 900px)": {
+      clipPath:
+        "polygon(0 0, 0 100%, 10% 100%, 12% 90%, 88% 90%, 90% 100%, 100% 100%, 100% 0, 0 0)",
+    },
   },
   title: {
     fontFamily: "Starcraft, impact",
-    fontSize: "5vw",
     textAlign: "center",
+    padding: 0,
+    margin: 0,
   },
   special: {
     color: theme.primary,
-  },
-  wrapper: {
-    display: "flex",
   },
 }));

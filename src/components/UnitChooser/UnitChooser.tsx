@@ -49,7 +49,10 @@ export default function UnitChooser(props: IUnitChooserProps): JSX.Element {
 
   const handleContinue = (): void => {
     if (active.length === count) {
-      localStorage.setItem("extraUnits", active.join(" "));
+      const name =
+        localStorage.getItem("step")?.replace("Choose", "") + "ExtraUnits";
+
+      localStorage.setItem(name, active.join(" "));
 
       props.onNextStep();
     }

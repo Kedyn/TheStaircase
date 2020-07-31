@@ -6,8 +6,8 @@
   "homepage": "https://kedyn.github.io/TheStaircase",
   "scripts": {
     "start": "parcel ./src/index.html --open",
-    "prebuild": "rmdir dist /s /q",
-    "build": "parcel build ./src/index.html --no-source-maps -d build",
+    "prebuild": "rmdir build /s /q",
+    "build": "parcel build ./src/index.html --no-source-maps -d build --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"

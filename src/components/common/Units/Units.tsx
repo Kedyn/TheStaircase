@@ -39,11 +39,10 @@ export default function Units(props: IUnitsProps): JSX.Element {
       break;
   }
 
-  if (localStorage.getItem("extraUnits") !== null) {
-    units = [
-      ...units,
-      ...(localStorage.getItem("extraUnits") as string).split(" "),
-    ];
+  const name = localStorage.getItem("step") + "ExtraUnits";
+
+  if (localStorage.getItem(name) !== null) {
+    units = [...units, ...(localStorage.getItem(name) as string).split(" ")];
   }
 
   return (

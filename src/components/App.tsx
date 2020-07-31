@@ -2,6 +2,8 @@ import { JssProvider, ThemeProvider } from "react-jss";
 import React, { Suspense } from "react";
 
 import FinalStep from "./FinalStep";
+import Footer from "./layout/Footer";
+import Header from "./layout/Header";
 import { ITheme } from "themes/theme";
 import Language from "./Language";
 import Race from "./Race";
@@ -40,6 +42,31 @@ export default function App(props: IAppProps): JSX.Element {
     localStorage.setItem("step", new_step);
 
     setStep(new_step);
+  };
+
+  const handlePrevStep = (): void => {
+    switch (step) {
+      case "stepTwo":
+        changeStep("stepOne");
+
+        break;
+      case "stepThree":
+        changeStep("stepTwo");
+
+        break;
+      case "stepFour":
+        changeStep("stepThree");
+
+        break;
+      case "stepFive":
+        changeStep("stepFour");
+
+        break;
+      case "stepSix":
+        changeStep("stepFive");
+
+        break;
+    }
   };
 
   const handleNextStep = (): void => {
@@ -101,6 +128,7 @@ export default function App(props: IAppProps): JSX.Element {
         <Step
           name="stepOne.name"
           data={STEPS.one}
+          onPrevStep={handlePrevStep}
           onNextStep={handleNextStep}
         />
       );
@@ -111,6 +139,7 @@ export default function App(props: IAppProps): JSX.Element {
         <Step
           name="stepTwo.name"
           data={STEPS.two}
+          onPrevStep={handlePrevStep}
           onNextStep={handleNextStep}
         />
       );
@@ -121,6 +150,7 @@ export default function App(props: IAppProps): JSX.Element {
         <Step
           name="stepThree.name"
           data={STEPS.three}
+          onPrevStep={handlePrevStep}
           onNextStep={handleNextStep}
         />
       );
@@ -135,6 +165,7 @@ export default function App(props: IAppProps): JSX.Element {
         <Step
           name="stepFour.name"
           data={STEPS.four}
+          onPrevStep={handlePrevStep}
           onNextStep={handleNextStep}
         />
       );
@@ -149,6 +180,7 @@ export default function App(props: IAppProps): JSX.Element {
         <Step
           name="stepFive.name"
           data={STEPS.five}
+          onPrevStep={handlePrevStep}
           onNextStep={handleNextStep}
         />
       );
@@ -163,6 +195,7 @@ export default function App(props: IAppProps): JSX.Element {
         <Step
           name="stepSix.name"
           data={STEPS.six}
+          onPrevStep={handlePrevStep}
           onNextStep={handleNextStep}
         />
       );
@@ -182,7 +215,11 @@ export default function App(props: IAppProps): JSX.Element {
     <React.Fragment>
       <JssProvider registry={jssSetUp()}>
         <ThemeProvider theme={theme}>
-          <Suspense fallback="loading">{content}</Suspense>
+          <Suspense fallback="loading">
+            <Header />
+            {content}
+            <Footer />
+          </Suspense>
         </ThemeProvider>
       </JssProvider>
     </React.Fragment>

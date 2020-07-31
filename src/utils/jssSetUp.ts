@@ -34,6 +34,22 @@ export default function jssSetUp(): SheetsRegistry {
           fontFamily: "ShareTech, Arial",
           fontSize: "20px",
         },
+        "#root": {
+          minWidth: "100vw",
+          minHeight: "100vh",
+          maxWidth: "100vw",
+          maxHeight: "100vh",
+          display: "flex",
+          flexDirection: "column",
+        },
+        a: {
+          textDecorations: "none",
+          color: "rgba(255, 255, 255, 1)",
+
+          "&:hover": {
+            color: "rgba(255, 255, 255, 0.5)",
+          },
+        },
       },
     })
     .attach();
