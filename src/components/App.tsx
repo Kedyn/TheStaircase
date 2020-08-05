@@ -5,6 +5,7 @@ import FinalStep from "./FinalStep";
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import { ITheme } from "themes/theme";
+import Intro from "./Intro";
 import Language from "./Language";
 import Race from "./Race";
 import STEPS from "utils/steps";
@@ -76,6 +77,9 @@ export default function App(props: IAppProps): JSX.Element {
   const handleNextStep = (): void => {
     switch (step) {
       case "language":
+        changeStep("intro");
+        break;
+      case "intro":
         changeStep("race");
         break;
       case "race":
@@ -123,6 +127,10 @@ export default function App(props: IAppProps): JSX.Element {
   let content = <React.Fragment></React.Fragment>;
 
   switch (step) {
+    case "intro":
+      content = <Intro onContinue={handleNextStep} />;
+
+      break;
     case "race":
       content = <Race onNextStep={handleNextStep} />;
 
