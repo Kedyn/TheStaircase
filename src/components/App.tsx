@@ -42,6 +42,10 @@ export default function App(props: IAppProps): JSX.Element {
     localStorage.setItem("step", new_step);
 
     setStep(new_step);
+
+    setTimeout(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }, 100);
   };
 
   const handlePrevStep = (): void => {

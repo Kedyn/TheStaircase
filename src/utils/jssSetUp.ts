@@ -35,10 +35,8 @@ export default function jssSetUp(): SheetsRegistry {
           fontSize: "20px",
         },
         "#root": {
-          minWidth: "100vw",
           minHeight: "100vh",
           maxWidth: "100vw",
-          maxHeight: "100vh",
           display: "flex",
           flexDirection: "column",
         },

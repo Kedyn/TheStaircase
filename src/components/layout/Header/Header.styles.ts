@@ -8,6 +8,8 @@ export default createUseStyles((theme: ITheme) => ({
     justifyContent: "center",
     height: "60px",
     background: theme.background,
+    position: "sticky",
+    top: 0,
 
     "@media (min-width: 900px)": {
       clipPath:
