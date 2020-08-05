@@ -1,7 +1,7 @@
 {
   "intro": {
-    "welcome": "Welcome to TheStaircase",
-    "description": "TheStaircase es un método alternativo para mejorar que se centra en crear una experiencia divertida y motivadora para el jugador. Utiliza restricciones de unidad para evitar que el jugador se vea abrumado por la complejidad del juego y para fomentar la creatividad y la exploración. Utiliza puntos de referencia medibles para los elementos básicos absolutos de Starcraft 2: recopilar y gastar recursos de manera eficiente. Estos puntos de referencia se registran utilizando [GGGReplays], lo que permite al jugador dedicar toda su atención a jugar el juego.",
+    "welcome": "Bienvenido a TheStaircase",
+    "description": "TheStaircase es un método alternativo para mejorar que se centra en crear una experiencia divertida y motivadora para el jugador. Utiliza restricciones de unidades para evitar que el jugador se vea abrumado por la complejidad del juego y para fomentar la creatividad y la exploración. Utiliza puntos de referencia medibles para los elementos básicos absolutos de Starcraft 2: recopilar y gastar recursos de manera eficiente. Estos puntos de referencia se registran utilizando [GGGReplays], lo que permite al jugador dedicar toda su atención a jugar el juego.",
     "rules": "Reglas Basicas",
     "ruleOne": "Lee las reglas cuidadosamente en cada paso.",
     "ruleTwo": "Solo usa las unidades que se le muestran en cada paso.",
