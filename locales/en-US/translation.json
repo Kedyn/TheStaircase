@@ -36,7 +36,7 @@
     "threeBases": "Try to get 66 workers (3 fully base saturation). NOTE: only take the gas you need when you need it!",
     "aggresive": "Play aggressively; avoid static defenses as much as possible.",
     "economy": "Try to keep your resources as low as possible.",
-    "ccEnery": "Try to keep your Command Center (Orbital)'s enery low.",
+    "ccEnergy": "Try to keep your Command Center (Orbital)'s enery low.",
     "nexusEnergy": "Try to keep your Nexus' energy low.",
     "queenEnergy": "Try to keep your Queens' energy low.",
     "unitActive": "Try to keep atleast one unit or group of units active on the map after your first scout, this will help train your multitasking.",

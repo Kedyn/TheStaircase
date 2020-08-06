@@ -36,7 +36,7 @@
     "threeBases": "Trata de llegar a 66 trabajadores (3 bases saturadas completamente). NOTA: solo toma gas cuando lo necesites!",
     "aggresive": "Juega agresivamente; Evita las defensas estáticas lo más posible.",
     "economy": "Trata de mantener bajo tus recursos lo más posible.",
-    "ccEnery": "Trata de mantener bajo el nivel de energía de tu Centro de Comando (Orbital).",
+    "ccEnergy": "Trata de mantener bajo el nivel de energía de tu Centro de Comando (Orbital).",
     "nexusEnergy": "Intenta mantener baja la energía de tu Nexus.",
     "queenEnergy": "Intenta mantener baja la energía de tu Reina.",
     "unitActive": "Intenta mantener al menos una unidad o grupo de unidades activas en el mapa después de tu primer explorador, esto ayudará a entrenar tus multitareas.",
